@@ -1,0 +1,10 @@
+[package]
+name = "oid_registry"
+version = "0.1.0"
+edition = "2024_07"
+
+[dependencies]
+asn1.workspace = true
+
+[dev-dependencies]
+cairo_test.workspace = true

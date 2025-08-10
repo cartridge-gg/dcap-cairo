@@ -1,0 +1,13 @@
+[package]
+name = "asn1"
+version = "0.1.0"
+edition = "2024_07"
+experimental-features = ["associated_item_constraints"]
+
+[dependencies]
+int_traits.workspace = true
+nom.workspace = true
+time.workspace = true
+
+[dev-dependencies]
+cairo_test.workspace = true

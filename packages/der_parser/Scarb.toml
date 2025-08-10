@@ -1,0 +1,13 @@
+[package]
+name = "der_parser"
+version = "0.1.0"
+edition = "2024_07"
+experimental-features = ["associated_item_constraints"]
+
+[dependencies]
+asn1.workspace = true
+int_traits.workspace = true
+nom.workspace = true
+
+[dev-dependencies]
+cairo_test.workspace = true

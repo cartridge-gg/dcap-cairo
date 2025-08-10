@@ -1,0 +1,16 @@
+[package]
+name = "dcap"
+version = "0.1.0"
+edition = "2024_07"
+
+[dependencies]
+asn1.workspace = true
+der_parser.workspace = true
+int_traits.workspace = true
+oid_registry.workspace = true
+starknet.workspace = true
+time.workspace = true
+x509_parser.workspace = true
+
+[dev-dependencies]
+cairo_test.workspace = true

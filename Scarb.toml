@@ -1,0 +1,23 @@
+[workspace]
+members = [
+    "packages/asn1",
+    "packages/dcap",
+    "packages/der_parser",
+    "packages/int_traits",
+    "packages/nom",
+    "packages/oid_registry",
+    "packages/time",
+    "packages/x509_parser",
+]
+
+[workspace.dependencies]
+asn1 = { path = "./packages/asn1" }
+cairo_test = "2.12.0"
+dcap = { path = "./packages/dcap" }
+der_parser = { path = "./packages/der_parser" }
+int_traits = { path = "./packages/int_traits" }
+nom = { path = "./packages/nom" }
+oid_registry = { path = "./packages/oid_registry" }
+starknet = "2.12.0"
+time = { path = "./packages/time" }
+x509_parser = { path = "./packages/x509_parser" }
